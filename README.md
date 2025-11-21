@@ -82,7 +82,46 @@ Then open http://localhost:8000 in your browser.
 
 ## Installation
 
-Step-by-step instructions for cloning and running the calculator locally will be provided here.
+### 1. Clone the Repository
+
+Clone this repository to your local machine using Git:
+
+```bash
+git clone https://github.com/sahanpinavida/tester05.git
+cd tester05
+```
+
+Alternatively, you can download the repository as a ZIP file from GitHub and extract it to your desired location.
+
+### 2. Launch the Calculator
+
+Once you have the project files on your local machine, you can launch the calculator using one of the following methods:
+
+#### Method A: Direct File Opening
+
+1. Navigate to the project directory
+2. Locate the `index.html` file
+3. Open it in your web browser by:
+   - Double-clicking the file, or
+   - Right-clicking and selecting "Open with" and choosing your preferred browser, or
+   - Dragging the file into an open browser window
+
+This method is quick and simple for immediate testing and usage.
+
+#### Method B: Using an HTTP Server (Recommended for Development)
+
+1. Open a terminal or command prompt
+2. Navigate to the project root directory (where `index.html` is located)
+3. Start a simple HTTP server using one of the methods described in the [Prerequisites](#prerequisites) section
+4. Open the provided localhost URL in your browser (e.g., http://localhost:8000)
+
+This method is recommended because:
+
+- It mirrors the production environment when deployed to GitHub Pages or static hosting
+- It avoids potential browser security restrictions with the file:// protocol
+- It provides a more accurate testing environment for web features
+
+For detailed HTTP server setup instructions, see the [Running the Application](#running-the-application) section under Prerequisites.
 
 ## Usage
 
