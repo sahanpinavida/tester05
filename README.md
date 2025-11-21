@@ -192,7 +192,161 @@ To divide one number by another:
 
 ## Contributing
 
-Guidelines for contributing to this project, including workflow, coding standards, and commit conventions, will be outlined here.
+We welcome contributions to the Simple Web Calculator project! Please follow these guidelines to ensure a smooth collaboration process.
+
+### Getting Started
+
+#### Fork and Clone
+
+1. Fork the repository on GitHub by clicking the "Fork" button
+2. Clone your fork to your local machine:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/tester05.git
+cd tester05
+```
+
+3. Add the upstream repository as a remote to keep your fork synchronized:
+
+```bash
+git remote add upstream https://github.com/sahanpinavida/tester05.git
+```
+
+#### Create a Feature Branch
+
+Always create a new branch for your work. Use the following naming convention:
+
+**Branch Naming Format:**
+
+```
+feature/{issue-number}-{short-description}
+fix/{issue-number}-{short-description}
+docs/{issue-number}-{short-description}
+```
+
+**Examples:**
+
+```bash
+git checkout -b feature/42-add-keyboard-support
+git checkout -b fix/15-division-by-zero
+git checkout -b docs/23-update-usage-guide
+```
+
+### Coding Standards
+
+Please adhere to these coding standards to maintain consistency throughout the project:
+
+#### HTML
+
+- Use semantic HTML5 elements (e.g., `<button>`, `<main>`, `<section>`)
+- Maintain proper document structure and hierarchy
+- Use descriptive class and id names that reflect purpose
+- Keep markup clean and well-indented
+
+#### CSS
+
+- Use class-based selectors for styling
+- Maintain consistent indentation (spaces, not tabs)
+- Organize styles logically by component or section
+- Avoid inline styles
+- Use meaningful class names that describe function, not appearance
+
+#### JavaScript
+
+- Write single-responsibility functions (each function does one thing)
+- Use descriptive variable and function names (e.g., `calculateResult`, not `calc`)
+- Add inline comments to explain key logic and complex operations
+- Avoid global variables when possible
+- Keep functions small and focused
+- Use camelCase for variable and function names
+
+#### General Guidelines
+
+- No external libraries or frameworks - vanilla HTML/CSS/JS only
+- Keep code clean, readable, and modular
+- Test your changes in all supported browsers (Chrome >= 90, Firefox >= 88, Edge >= 90)
+- Ensure the calculator works both when opened directly and via HTTP server
+
+### Commit Message Convention
+
+Follow this simple and consistent format for all commit messages:
+
+**Format:**
+
+```
+type: short description of changes
+```
+
+**Commit Types:**
+
+- `feat`: New feature or functionality
+- `fix`: Bug fix
+- `docs`: Documentation changes
+- `style`: Code style/formatting (no functional changes)
+- `refactor`: Code refactoring (no functional changes)
+- `test`: Adding or updating tests
+- `chore`: Maintenance tasks, build changes
+
+**Examples:**
+
+```bash
+git commit -m "feat: add keyboard input support for calculator"
+git commit -m "fix: correct division by zero error handling"
+git commit -m "docs: update installation instructions for Windows"
+git commit -m "style: improve button spacing and alignment"
+git commit -m "refactor: simplify calculation logic in main function"
+```
+
+**Guidelines:**
+
+- Keep the first line under 72 characters
+- Use lowercase for the type
+- Use imperative mood ("add" not "added" or "adds")
+- Be specific but concise
+- For complex changes, add a blank line and detailed explanation in the body
+
+### Submitting Your Changes
+
+1. **Commit your changes** with clear, descriptive commit messages following the convention above
+
+2. **Push to your fork:**
+
+```bash
+git push origin feature/42-add-keyboard-support
+```
+
+3. **Open a Pull Request** on GitHub:
+   - Navigate to the original repository
+   - Click "New Pull Request"
+   - Select your fork and branch
+   - Provide a clear title and description
+   - Link any related issues (e.g., "Closes #42")
+
+4. **Respond to feedback** from code reviewers promptly and make requested changes
+
+### Pull Request Guidelines
+
+- **Focus:** Keep PRs focused on a single feature, fix, or improvement
+- **Testing:** Test your changes thoroughly before submitting
+- **Documentation:** Update relevant documentation (README, comments) if needed
+- **Code Quality:** Ensure your code follows all coding standards
+- **Description:** Provide a clear description of what changes you made and why
+- **Issues:** Reference related issues using GitHub's issue linking syntax
+
+### Code Review Process
+
+All contributions go through a code review process:
+
+1. A project maintainer will review your pull request
+2. They may request changes, ask questions, or suggest improvements
+3. Make any requested changes and push them to your branch
+4. Once approved, a maintainer will merge your contribution
+
+Please be patient and responsive during the review process. We appreciate your contributions!
+
+### Questions or Issues?
+
+If you have questions about contributing, please open an issue on GitHub or reach out to the project maintainers.
 
 ## Roadmap
 
