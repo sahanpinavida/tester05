@@ -125,7 +125,70 @@ For detailed HTTP server setup instructions, see the [Running the Application](#
 
 ## Usage
 
-Detailed examples demonstrating addition, subtraction, multiplication, and division operations will be documented in this section.
+The calculator provides a simple and intuitive interface for performing basic arithmetic operations. Enter numbers by clicking the digit buttons, select your desired operation, and press the equals button to see the result.
+
+### Basic Operations
+
+The calculator supports four fundamental arithmetic operations. Below are step-by-step examples for each:
+
+#### Addition
+
+To add two numbers together:
+
+**Example: 15 + 27**
+
+1. Click the digits '1' and '5' to enter 15
+2. Click the '+' (plus) button
+3. Click the digits '2' and '7' to enter 27
+4. Click the '=' (equals) button
+
+**Result:** 42
+
+#### Subtraction
+
+To subtract one number from another:
+
+**Example: 50 - 18**
+
+1. Click the digits '5' and '0' to enter 50
+2. Click the '-' (minus) button
+3. Click the digits '1' and '8' to enter 18
+4. Click the '=' (equals) button
+
+**Result:** 32
+
+#### Multiplication
+
+To multiply two numbers:
+
+**Example: 8 * 5**
+
+1. Click the digit '8' to enter 8
+2. Click the '*' or 'x' (multiply) button
+3. Click the digit '5' to enter 5
+4. Click the '=' (equals) button
+
+**Result:** 40
+
+#### Division
+
+To divide one number by another:
+
+**Example: 100 / 5**
+
+1. Click the digits '1', '0', and '0' to enter 100
+2. Click the '/' or '÷' (divide) button
+3. Click the digit '5' to enter 5
+4. Click the '=' (equals) button
+
+**Result:** 20
+
+### Tips for Using the Calculator
+
+- **Clear the display:** Click the 'C' (Clear) or 'AC' (All Clear) button to reset the calculator and start a new calculation
+- **Decimal numbers:** Use the '.' (decimal point) button to enter decimal values for more precise calculations
+- **Continuous operations:** After getting a result, you can continue calculating by pressing an operator button to use the result in a new operation
+- **Display:** All inputs and results are shown in the calculator's display area at the top of the interface
 
 ## Contributing
 
