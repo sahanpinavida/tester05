@@ -1,5 +1,7 @@
 # Simple Web Calculator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A clean and responsive web-based calculator that performs basic arithmetic operations. Built with vanilla HTML, CSS, and JavaScript without any external frameworks or libraries, this project demonstrates fundamental web development principles while providing a practical tool for everyday calculations.
 
 ## Table of Contents
@@ -359,7 +361,9 @@ Information about planned features and version history will be available in this
 
 ## License
 
-License information and badges will be displayed here.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License is a permissive license that allows for reuse, modification, and distribution of this software with minimal restrictions. You are free to use this calculator in your own projects, both personal and commercial.
 
 ## Acknowledgements
 
