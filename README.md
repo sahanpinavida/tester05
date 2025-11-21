@@ -348,6 +348,11 @@ Please be patient and responsive during the review process. We appreciate your c
 
 If you have questions about contributing, please open an issue on GitHub or reach out to the project maintainers.
 
+When creating issues or pull requests, please use our templates to provide all necessary information:
+
+- [Issue Template](.github/ISSUE_TEMPLATE.md) - For bug reports, feature requests, and questions
+- [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) - Automatically populated when you open a PR
+
 ## Roadmap
 
 Information about planned features and version history will be available in this section.
