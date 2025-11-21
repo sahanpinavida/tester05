@@ -364,7 +364,56 @@ When creating issues or pull requests, please use our templates to provide all n
 
 ## Roadmap
 
-Information about planned features and version history will be available in this section.
+### Version History
+
+This project maintains a [CHANGELOG.md](CHANGELOG.md) file to track all notable changes, additions, and version releases. The changelog follows the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed information about:
+- Current unreleased changes and additions
+- Planned features for future releases
+- Version history (once releases begin)
+
+### Planned Features
+
+The following features are planned for future development:
+
+**Core Application (v1.0.0):**
+- Implement calculator UI with HTML/CSS
+- Add JavaScript functionality for basic operations
+- Support decimal numbers and clear/reset functions
+- Ensure responsive design for all screen sizes
+
+**Future Enhancements:**
+- Keyboard input support for faster calculations
+- Calculation history to review previous operations
+- Memory functions (M+, M-, MR, MC)
+- Light/dark theme toggle
+- Advanced operations (percentage, square root, power)
+- Scientific calculator mode
+
+### Roadmap Maintenance
+
+**Open Questions:**
+
+The project team is considering the best approach for maintaining roadmap information:
+- Should detailed feature planning be tracked in GitHub Issues or Projects?
+- Should the roadmap remain in README.md or move to a separate ROADMAP.md file?
+- How should we balance detailed planning documentation with keeping README.md concise?
+- Should milestones be used for version planning?
+
+**Current Approach:**
+
+For now, we are using the following structure:
+- **Completed changes:** Documented in [CHANGELOG.md](CHANGELOG.md)
+- **Planned features:** Listed above in this README section
+- **Active development:** Can be tracked via GitHub Issues
+- **Version planning:** Outlined in CHANGELOG.md under Future Releases
+
+This approach may evolve as the project grows and the team determines the most effective way to communicate progress and plans to contributors and users.
+
+**Feedback Welcome:**
+
+If you have suggestions about roadmap management or feature priorities, please open an issue on GitHub. We value community input in shaping the project's direction.
 
 ## License
 
