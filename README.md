@@ -4,7 +4,7 @@
 
 A clean and responsive web-based calculator that performs basic arithmetic operations. Built with vanilla HTML, CSS, and JavaScript without any external frameworks or libraries, this project demonstrates fundamental web development principles while providing a practical tool for everyday calculations.
 
-### Calculator Interface
+## Preview
 
 ![Simple Web Calculator interface showing a digital display at the top and a grid of buttons below including numbers 0-9, operators (+, -, *, /), clear (C), decimal point (.), and equals (=) buttons](assets/calculator-preview.svg)
 
@@ -12,6 +12,7 @@ A clean and responsive web-based calculator that performs basic arithmetic opera
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
